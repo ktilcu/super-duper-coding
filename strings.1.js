@@ -8,7 +8,7 @@ function capitalize(word) {
 const cases = [
   { input: ["Luke, I am your father"], expected: "LUKE, I AM YOUR FATHER" },
   { input: ["Lord Business"], expected: "LORD BUSINESS" },
-  { input: ["I have guns, in my butt!?"], expected: "I HAVE GUNS, IN MY BUTT?!" },
+  { input: ["I have guns, in my butt?!"], expected: "I HAVE GUNS, IN MY BUTT?!" },
 ];
 
 import { test } from "./test.js";

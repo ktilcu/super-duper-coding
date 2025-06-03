@@ -8,9 +8,10 @@ function formatPlate(code) {
 }
 
 const cases = [
-  {input: "XZ42", expected: "XZ42****"},
-  {input: "ABCDEFGH", expected: "ABCDEFGH"},
-  {input: "1234567", expected: "1234567*"}
+  {input: ["XZ42"], expected: "XZ42****"},
+  {input: ["ABCDEFGH"], expected: "ABCDEFGH"},
+  {input: ["1234567"], expected: "1234567*"},
+  {input: ["THAGOATTT"], expected: "THAGOATT"}
 ];
 
 import { test } from "./test.js";

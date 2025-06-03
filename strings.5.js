@@ -7,9 +7,9 @@ function sneaky(word) {
 }
 
 const cases = [
-  {input: "xxDragonzrulexx", expected: "Dragonzrule"},
-  {input: "asrejoicealwaysay", expected: "rejoicealways"},
-  {input: "he❤️rt", expected: "❤️"}
+  {input: ["xxDragonzrulexx"], expected: "Dragonzrule"},
+  {input: ["asrejoicealwaysay"], expected: "rejoicealways"},
+  {input: ["he❤️rt"], expected: "❤️"}
 ];
 
 import { test } from "./test.js";

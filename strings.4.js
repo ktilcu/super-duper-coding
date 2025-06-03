@@ -6,8 +6,8 @@ function echo(word) {
 }
 
 const cases = [
-  {input: "hey", expected: "hey hey hey"},
-  {input: "no", expected: "no no no"}
+  {input: ["hey"], expected: "hey hey hey"},
+  {input: ["no"], expected: "no no no"}
 ];
 
 import { test } from "./test.js";
