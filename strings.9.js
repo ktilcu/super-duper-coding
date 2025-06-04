@@ -2,7 +2,7 @@
 // Instructions: Capitalize the first and last letter of word passed in
 // Example: highsides('bobbyw') === 'BobbyW'
 function highsides(word) {
-  throw new Error("bigThree function not implemented yet");
+  throw new Error("highsides function not implemented yet");
 }
 
 const cases = [
